@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:gold_ingot" },
+    "title": { "translate": "advancements.burmalda.dembel.title", "color": "gold" },
+    "description": { "translate": "advancements.burmalda.dembel.description", "color": "gray" },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "burmalda:root",
+  "criteria": {
+    "triggered": {
+      "trigger": "burmalda:event",
+      "conditions": { "event": "dembel" }
+    }
+  }
+}

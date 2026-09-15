@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:lever" },
+    "title": { "translate": "advancements.burmalda.pandora_key.title", "color": "yellow" },
+    "description": { "translate": "advancements.burmalda.pandora_key.description", "color": "gray" },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "burmalda:root",
+  "criteria": {
+    "triggered": {
+      "trigger": "burmalda:event",
+      "conditions": { "event": "pandora_opened" }
+    }
+  }
+}

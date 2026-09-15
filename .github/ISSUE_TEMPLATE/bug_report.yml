@@ -1,0 +1,62 @@
+name: Bug report / Баг-репорт
+description: Something in Burmalda broke / Что-то в Бурмалде сломалось
+labels: ["bug"]
+body:
+  - type: input
+    id: mc-version
+    attributes:
+      label: Minecraft version / Версия Minecraft
+      placeholder: "1.21.8"
+    validations:
+      required: true
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: Which jar / Какой jar стоит
+      description: The file name / Имя файла
+      placeholder: "burmalda-1.2.0-1.21.8.jar"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: side
+    attributes:
+      label: Where / Где
+      options:
+        - Singleplayer / Одиночка
+        - Server / Сервер
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened / Что случилось
+      description: Which debuff was running, what went wrong / Какой дебафф был активен и что пошло не так
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to repeat it / Как повторить
+      placeholder: |
+        1.
+        2.
+        3.
+
+  - type: textarea
+    id: log
+    attributes:
+      label: Log / Лог
+      description: |
+        If the game crashed or kicked you — attach `.minecraft/logs/latest.log` or paste the part with the error.
+        Если игру крашнуло или выкинуло — приложи `.minecraft/logs/latest.log` или вставь кусок с ошибкой.
+      render: text
+
+  - type: textarea
+    id: other-mods
+    attributes:
+      label: Other mods / Другие моды
+      description: Especially if there's a conflict / Особенно если подозреваешь конфликт

@@ -1,0 +1,40 @@
+# Centralized + per-version properties (Stonecutter 0.9.x)
+mod.id = "burmalda"
+mod.name = "Burmalda"
+mod.group = "com.mixaold"
+mod.version = "1.2.0"
+
+deps.fabric_loader = "0.19.3"
+
+# loom-back-compat: which Fabric Loom variant to drive
+loomx.loom_version = "1.16-SNAPSHOT"
+
+["1.21.1"]
+mod.mc_compat = ">=1.21 <=1.21.1"
+mod.mc_releases = ["1.21", "1.21.1"]
+deps.fabric_api = "0.116.12+1.21.1"
+deps.yarn = "1.21.1+build.3"
+
+["1.21.3"]
+mod.mc_compat = ">=1.21.2 <=1.21.3"
+mod.mc_releases = ["1.21.2", "1.21.3"]
+deps.fabric_api = "0.114.1+1.21.3"
+deps.yarn = "1.21.3+build.2"
+
+["1.21.5"]
+mod.mc_compat = ">=1.21.4 <=1.21.5"
+mod.mc_releases = ["1.21.4", "1.21.5"]
+deps.fabric_api = "0.128.2+1.21.5"
+deps.yarn = "1.21.5+build.1"
+
+["1.21.8"]
+mod.mc_compat = ">=1.21.6 <=1.21.8"
+mod.mc_releases = ["1.21.6", "1.21.7", "1.21.8"]
+deps.fabric_api = "0.136.1+1.21.8"
+deps.yarn = "1.21.8+build.1"
+
+["1.21.11"]
+mod.mc_compat = ">=1.21.9 <=1.21.11"
+mod.mc_releases = ["1.21.9", "1.21.10", "1.21.11"]
+deps.fabric_api = "0.141.4+1.21.11"
+deps.yarn = "1.21.11+build.6"

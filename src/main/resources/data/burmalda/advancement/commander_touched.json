@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:iron_sword" },
+    "title": { "translate": "advancements.burmalda.commander_touched.title", "color": "red" },
+    "description": { "translate": "advancements.burmalda.commander_touched.description", "color": "gray" },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "burmalda:root",
+  "criteria": {
+    "triggered": {
+      "trigger": "burmalda:event",
+      "conditions": { "event": "commander_touched" }
+    }
+  }
+}

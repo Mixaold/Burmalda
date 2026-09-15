@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "Бурмалда - Это мод рандомайзер различных дебаффов\n\nЧтобы запустить - напиши в чат: Пошла возня, и возня пойдет... <3\n\nКаждые 3 минуты выдается рандомный дебафф, кто-то взлетает в небо... Кто-то сгорает... Кто то просто страдает без причины...\n\nРекомендую играть в него с друзьями, так намного веселее, + в моде есть много связок если ты играешь с кем-то\n\nДабы избежать всевозможных ошибок/рассинхронов, рекомендую запускать мод, когда уже все присоединились на сервер, но даже если мод уже запущен, эффекты до новоприбывших всё равно дойдут...\n\n---\n\nBurmalda - A debuff randomizer mod\n\nTo start - type in chat: start, and the chaos begins... <3\n\nEvery 3 minutes a random debuff is assigned — someone flies into the sky... someone burns... someone just suffers for no reason...\n\nBest played with friends, way more fun that way, + the mod has many interactions when playing with others\n\nTo avoid desyncs and errors, start the mod once everyone has joined the server — but even if it's already running, new players will catch up anyway...",
+  "authors": [
+    "Mixaold"
+  ],
+  "contact": {
+    "sources": "https://github.com/Mixaold/Burmalda",
+    "issues": "https://github.com/Mixaold/Burmalda/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/burmalda/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mixaold.burmalda.BurmaldaMod"
+    ],
+    "client": [
+      "com.mixaold.burmalda.BurmaldaClient"
+    ]
+  },
+  "mixins": [
+    "burmalda.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "${minecraft}"
+  }
+}

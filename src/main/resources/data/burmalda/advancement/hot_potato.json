@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:baked_potato" },
+    "title": { "translate": "advancements.burmalda.hot_potato.title", "color": "gold" },
+    "description": { "translate": "advancements.burmalda.hot_potato.description", "color": "gray" },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "burmalda:root",
+  "criteria": {
+    "triggered": {
+      "trigger": "burmalda:event",
+      "conditions": { "event": "hot_potato" }
+    }
+  }
+}

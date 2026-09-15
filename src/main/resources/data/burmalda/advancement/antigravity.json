@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:feather" },
+    "title": { "translate": "advancements.burmalda.antigravity.title", "color": "aqua" },
+    "description": { "translate": "advancements.burmalda.antigravity.description", "color": "gray" },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "burmalda:root",
+  "criteria": {
+    "triggered": {
+      "trigger": "burmalda:event",
+      "conditions": { "event": "antigravity_launch" }
+    }
+  }
+}

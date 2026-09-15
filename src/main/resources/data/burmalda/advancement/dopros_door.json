@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:cake" },
+    "title": { "translate": "advancements.burmalda.dopros_door.title", "color": "yellow" },
+    "description": { "translate": "advancements.burmalda.dopros_door.description", "color": "gray" },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "burmalda:root",
+  "criteria": {
+    "triggered": {
+      "trigger": "burmalda:event",
+      "conditions": { "event": "dopros_door" }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# stonecutter build targets - generated from the single source tree
+
+versions/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# claude code
+
+.claude/
+
+# macos
+
+*.DS_Store
+
+# fabric
+
+run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr
+
+# built jars and build logs
+
+dist/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.log
+
+# local working notes and page copy - not part of the mod, kept out of the public repo
+
+CHANGELOG-1.2.0.md
+burmalda_debuffs.csv
+docs/
+_backup_pre_stonecutter/

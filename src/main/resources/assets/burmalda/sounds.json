@@ -1,0 +1,32 @@
+{
+  "burmalda.death_star": {
+    "sounds": [
+      {
+        "name": "burmalda:burmalda/death_star",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "stream": false
+      }
+    ]
+  },
+  "burmalda.thunder_rumble": {
+    "sounds": [
+      {
+        "name": "burmalda:burmalda/thunder_rumble",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "stream": false
+      }
+    ]
+  },
+  "burmalda.activation": {
+    "sounds": [
+      {
+        "name": "burmalda:burmalda/activation",
+        "volume": 1.0,
+        "pitch": 1.0,
+        "stream": false
+      }
+    ]
+  }
+}

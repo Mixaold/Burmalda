@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:bundle" },
+    "title": { "translate": "advancements.burmalda.klepto_victim.title", "color": "red" },
+    "description": { "translate": "advancements.burmalda.klepto_victim.description", "color": "gray" },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "burmalda:root",
+  "criteria": {
+    "triggered": {
+      "trigger": "burmalda:event",
+      "conditions": { "event": "klepto_victim" }
+    }
+  }
+}

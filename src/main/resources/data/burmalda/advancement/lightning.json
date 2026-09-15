@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:lightning_rod" },
+    "title": { "translate": "advancements.burmalda.lightning.title", "color": "yellow" },
+    "description": { "translate": "advancements.burmalda.lightning.description", "color": "gray" },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "burmalda:root",
+  "criteria": {
+    "triggered": {
+      "trigger": "burmalda:event",
+      "conditions": { "event": "lightning_hit" }
+    }
+  }
+}

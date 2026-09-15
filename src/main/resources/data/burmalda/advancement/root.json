@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:emerald" },
+    "title": { "translate": "advancements.burmalda.root.title", "color": "green", "bold": true },
+    "description": { "translate": "advancements.burmalda.root.description", "color": "gray" },
+    "frame": "task",
+    "background": "${advancement_bg}",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "criteria": {
+    "triggered": {
+      "trigger": "burmalda:event",
+      "conditions": { "event": "mod_started" }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:chest" },
+    "title": { "translate": "advancements.burmalda.obshchaga.title", "color": "yellow" },
+    "description": { "translate": "advancements.burmalda.obshchaga.description", "color": "gray" },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": false
+  },
+  "parent": "burmalda:root",
+  "criteria": {
+    "triggered": {
+      "trigger": "burmalda:event",
+      "conditions": { "event": "obshchaga_linked" }
+    }
+  }
+}

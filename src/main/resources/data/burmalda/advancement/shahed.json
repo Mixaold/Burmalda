@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:tnt" },
+    "title": { "translate": "advancements.burmalda.shahed.title" },
+    "description": { "translate": "advancements.burmalda.shahed.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "burmalda:root",
+  "criteria": {
+    "shahed_survived": {
+      "trigger": "burmalda:event",
+      "conditions": { "event": "shahed_survived" }
+    }
+  }
+}

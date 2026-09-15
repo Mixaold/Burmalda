@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mixaold.burmalda.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerEntityMixin",
+    "LivingEntityFoodMixin",
+    "ArmorStandMarkerInvoker",
+    "DisplayTransformInvoker",
+    "BlockDisplayStateInvoker"
+  ],
+  "client": [
+    "KeyboardInputMixin",
+    "InputAccessorMixin",
+    "InGameHudMixin",
+    "MouseMixin",
+    "LinearPaletteMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "priority": 1100
+}
